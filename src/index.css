@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1B2316;
+  color: #E8F5E9;
+  font-family: 'Inter', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1B2316;
+  color: #E8F5E9;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  nav {
+    padding: 16px 20px !important;
+  }
+
+  nav ul {
+    display: none !important;
+  }
+
+  nav div:last-child {
+    gap: 12px !important;
+  }
+
+  .hero-section {
+    flex-direction: column !important;
+    padding: 100px 20px 40px !important;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr !important;
+    padding: 0 20px !important;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr !important;
+    padding: 40px 20px !important;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
