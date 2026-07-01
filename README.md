@@ -38,11 +38,11 @@ npm run build
 
 ## 🌐 Live Demo
 
-(Add your Vercel URL here)
+https://floravision-eta.vercel.app
 
 ## 💻 GitHub Repository
 
-https://github.com/harshitbaranwal123/FLORAVISION.git
+https://github.com/harshitbaranwal123/FLORAVISION
 
 ## 👨‍💻 Author
 
